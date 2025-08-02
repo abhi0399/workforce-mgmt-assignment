@@ -57,7 +57,6 @@ public class TaskService {
                 null
         );
         task.addActivity(creationActivity);
-
         tasks.put(taskId, task);
 
         // Store by customer reference for reassignment logic
